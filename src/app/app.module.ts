@@ -7,6 +7,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { OneComponent } from './one/one.component';
 import { TwoComponent } from './two/two.component';
 import { ThreeComponent } from './three/three.component';
+import { OneAComponent } from './one-a/one-a.component';
+import { OneBComponent } from './one-b/one-b.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ThreeComponent } from './three/three.component';
     DashboardComponent,
     OneComponent,
     TwoComponent,
-    ThreeComponent
+    ThreeComponent,
+    OneAComponent,
+    OneBComponent
   ],
   imports: [
     BrowserModule,
